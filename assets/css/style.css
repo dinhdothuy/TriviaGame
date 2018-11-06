@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Walter Turncoat', cursive;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0ex;
+    position: relative;
+    overflow: auto;
+}
+
+.board {
+    background-image: url('../images/board-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    margin-top: 20px;
+    height: 1100px;
+}
+
+header {
+    color: green;
+}
+
+.quizBox {
+    padding: 20px;
+    margin: 100px;
+}
+
+button{
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    border: none;
+    background: transparent;
+    font-size: 30px;;
+}
+
+button:hover {
+    border: 2px solid burlywood;
+    background: white;
+  }
+
